@@ -1,0 +1,94 @@
+    body{
+        background-color: #282828
+    }
+a{
+    text-decoration: none;
+}
+main {
+	background-color: #fff;
+}
+main .content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+main .pg-header {
+	padding: 60px 0;
+	background: #e6e6e6;
+}
+main .pg-header h1 {
+	color: #333;
+	font-weight: 600;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.btn-primary {
+	border-radius: 0;
+}
+.breadcrumb {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+
+.breadcrumb a {
+	color: #000;
+}
+
+@media all and (max-width: 991px) {
+	.breadcrumb.justify-content-end {
+		justify-content: flex-start !important;
+	}
+}
+.kamil_img{
+	width: 100%;
+	object-fit:cover;
+	height:100%
+
+}
+.xalid{
+	height: 400px;
+	
+}
+
+.davud{
+	margin-bottom:40px
+}
+.posts .col-sm-6 {
+	margin-bottom: 20px;
+}
+
+.posts .card-title {
+	text-transform: capitalize;
+}
+
+.posts .card-text {
+	text-align: center;
+}
+.single h2 {
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.single h2::after {
+	position: absolute;
+	content: '';
+	width: 50px;
+	bottom: -6px;
+	height: 2px;
+	background-color: #666;
+	left: 0;
+}
+
+.single .btn-primary {
+	font-weight: 600;
+}
+
+.single .price {
+	font-size: 22px;
+}
+
+.single .price strong {
+	color: #0a58ca;
+}
